@@ -1272,7 +1272,7 @@ body {
 	position: absolute;
 	left: 1246px;
 	top: 5400px;
-	background-image: url(images/logo__1__1.png);
+	background-image: url(images/spritzer_logo.png);
 	background-repeat: no-repeat;
 	background-size: cover;
 }
@@ -2042,6 +2042,7 @@ body {
 	text-align: left;
 	font-size: 32px;
 	letter-spacing: 0;
+	text-decoration: none;
 }
 
 .e101_4926 {
