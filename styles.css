@@ -321,7 +321,7 @@ body {
 	position: absolute;
 	left: 0px;
 	top: 3243px;
-	border-radius: 16px 16px 0px 0px;
+	border-radius: 16px 34px 0px 0px;
 }
 
 .e42_12366 {
@@ -947,7 +947,7 @@ body {
 	position: absolute;
 	left: 0px;
 	top: 0px;
-	border-radius: 16px 16px 0px 0px;
+	border-radius: 16px 26px 0px 0px;
 }
 
 .e101_4861 {
@@ -2120,7 +2120,7 @@ body {
 	position: absolute;
 	left: 0px;
 	top: 1921px;
-	border-radius: Symbol(figma.mixed)px;
+	border-radius: 16px 32px 0px 0px;
 }
 
 .e101_4934 {
@@ -2319,7 +2319,8 @@ body {
 }
 
 .e107_4851 {
-	border: 1px solid rgba(76.0000030696392, 60.00000022351742, 172.00000494718552, 1);
+	border-left: 1px solid #4C3CAC;
+	height: 290px;;
 }
 
 .e107_4851 {
@@ -2329,7 +2330,8 @@ body {
 }
 
 .e107_4852 {
-	border: 1px solid rgba(76.0000030696392, 60.00000022351742, 172.00000494718552, 1);
+	border-left: 1px solid #4C3CAC;
+	height: 290px;;
 }
 
 .e107_4852 {
