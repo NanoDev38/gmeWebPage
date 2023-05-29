@@ -4,7 +4,7 @@
 
 .e1_2 {
 	background-color: rgba(255, 255, 255, 1);
-	width: 1920px;
+	width: 100%;
 	height: 4567px;
 	position: absolute;
 }
@@ -26,34 +26,35 @@
 	left: 0px;
 	top: 0px;
 }
-
-.e1_4 {
-	background-color: rgba(0, 0, 0, 1);
-	width: 1752px;
-	height: 687px;
-	position: absolute;
-	left: 84px;
-	top: 220px;
-	border-top-left-radius: 20px;
-	border-top-right-radius: 20px;
-	border-bottom-left-radius: 20px;
-	border-bottom-right-radius: 20px;
-	background-image: url(images/rectangle_2.png);
-	background-repeat: no-repeat;
-	background-size: cover;
+.e1_4 { 
+	background-color:rgba(0, 0, 0, 1);
+	width:1752px;
+	height:687px;
+	position:absolute;
+	left:84px;
+	top:220px;
+	border-top-left-radius:20px;
+	border-top-right-radius:20px;
+	border-bottom-left-radius:20px;
+	border-bottom-right-radius:20px;
+	object-fit: cover;
+	background-image:url(images/rectangle_2.png);
+	background-repeat:no-repeat;
+	background-size:cover;
 }
-
-.e1_16 {
-	background-color: rgba(27.000000290572643, 17.00000088661909, 18.000000827014446, 1);
-	width: 619px;
-	height: 838px;
-	position: absolute;
-	left: 84px;
-	top: 1086px;
-	border-radius: Symbol(figma.mixed)px;
-	background-image: url(images/rectangle_4.png);
-	background-repeat: no-repeat;
-	background-size: cover;
+.e1_16 { 
+	background-color:rgba(27.000000290572643, 17.00000088661909, 18.000000827014446, 1);
+	width:619px;
+	height:838px;
+	position:absolute;
+	left:84px;
+	top:1086px;
+	border-top-left-radius: 16px;
+	border-bottom-left-radius: 16px;
+	background-image:url(images/rectangle_4.png);
+	background-repeat:no-repeat;
+	background-size:contain;
+	background-position: center;
 }
 
 .e42_12346 {
@@ -70,35 +71,35 @@
 	background-repeat: no-repeat;
 	background-size: cover;
 }
-
-.e42_12357 {
-	background-image: url(images/rectangle_10.png);
-	width: 558px;
-	height: 687px;
-	position: absolute;
-	left: 1029px;
-	top: 2161px;
-	border-top-left-radius: 20px;
-	border-top-right-radius: 20px;
-	border-bottom-left-radius: 20px;
-	border-bottom-right-radius: 20px;
-	background-repeat: no-repeat;
-	background-size: cover;
+.e42_12357 { 
+	background-image:url(images/rectangle_10.png);
+	width:558px;
+	height:687px;
+	position:absolute;
+	left:1029px;
+	top:2161px;
+	border-top-left-radius:20px;
+	border-top-right-radius:20px;
+	border-bottom-left-radius:20px;
+	border-bottom-right-radius:20px;
+	background-repeat:no-repeat;
+	background-size:cover;
+	background-position: center;
 }
-
-.e42_12375 {
-	background-image: url(images/rectangle_16.png);
-	width: 558px;
-	height: 687px;
-	position: absolute;
-	left: 1156px;
-	top: 2366px;
-	border-top-left-radius: 20px;
-	border-top-right-radius: 20px;
-	border-bottom-left-radius: 20px;
-	border-bottom-right-radius: 20px;
-	background-repeat: no-repeat;
-	background-size: cover;
+.e42_12375 { 
+	background-image:url(images/rectangle_16.png);
+	width:558px;
+	height:687px;
+	position:absolute;
+	left:1156px;
+	top:2366px;
+	border-top-left-radius:20px;
+	border-top-right-radius:20px;
+	border-bottom-left-radius:20px;
+	border-bottom-right-radius:20px;
+	background-repeat:no-repeat;
+	background-size:cover;
+	background-position: center;
 }
 
 .e37_11 {
@@ -312,7 +313,7 @@
 	position: absolute;
 	left: 0px;
 	top: 3243px;
-	border-radius: Symbol(figma.mixed)px;
+	border-radius: 16px 16px 0px 0px;
 }
 
 .e42_12366 {
@@ -327,44 +328,44 @@
 	font-size: 42px;
 	letter-spacing: 0;
 }
-
-.e42_12368 {
-	color: rgba(255, 255, 255, 1);
-	width: 459px;
-	height: 50px;
-	position: absolute;
-	left: 132px;
-	top: 3942px;
-	font-family: Saes Grotesk;
-	text-align: left;
-	font-size: 24px;
-	letter-spacing: 0;
+.e42_12368 { 
+	color:rgba(255, 255, 255, 1);
+	width:459px;
+	height:50px;
+	position:absolute;
+	left:132px;
+	top:3942px;
+	font-family:Saes Grotesk;
+	text-align:left;
+	font-size:24px;
+	letter-spacing:0;
+	text-decoration: underline;
 }
-
-.e42_12369 {
-	color: rgba(255, 255, 255, 1);
-	width: 459px;
-	height: 50px;
-	position: absolute;
-	left: 705px;
-	top: 3942px;
-	font-family: Saes Grotesk;
-	text-align: left;
-	font-size: 24px;
-	letter-spacing: 0;
+.e42_12369 { 
+	color:rgba(255, 255, 255, 1);
+	width:459px;
+	height:50px;
+	position:absolute;
+	left:705px;
+	top:3942px;
+	font-family:Saes Grotesk;
+	text-align:left;
+	font-size:24px;
+	letter-spacing:0;
+	text-decoration: underline;
 }
-
-.e42_12371 {
-	color: rgba(255, 255, 255, 1);
-	width: 459px;
-	height: 50px;
-	position: absolute;
-	left: 1287px;
-	top: 3942px;
-	font-family: Saes Grotesk;
-	text-align: left;
-	font-size: 24px;
-	letter-spacing: 0;
+.e42_12371 { 
+	color:rgba(255, 255, 255, 1);
+	width:459px;
+	height:50px;
+	position:absolute;
+	left:1287px;
+	top:3942px;
+	font-family:Saes Grotesk;
+	text-align:left;
+	font-size:24px;
+	letter-spacing:0;
+	text-decoration: underline;
 }
 
 .e42_12367 {
@@ -583,18 +584,17 @@
 	border-bottom-left-radius: 40px;
 	border-bottom-right-radius: 40px;
 }
-
-.e42_12400 {
-	color: rgba(255, 255, 255, 1);
-	width: 44px;
-	height: 21px;
-	position: absolute;
-	left: 1690px;
-	top: 4244px;
-	font-family: Saes Grotesk;
-	text-align: left;
-	font-size: 20px;
-	letter-spacing: 0;
+.e42_12400 { 
+	color:rgba(255, 255, 255, 1);
+	width:44px;
+	height:21px;
+	position:absolute;
+	left:1690px;
+	top:4239px;
+	font-family:Saes Grotesk;
+	text-align:left;
+	font-size:20px;
+	letter-spacing:0;
 }
 
 .e42_12401 {
@@ -868,16 +868,17 @@
 	height: 29px;
 	position: absolute;
 	left: 1109px;
-	top: 1846px;
+	top: 1850px;
 }
 
 .e42_12427 {
-	background-color: rgba(33.00000183284283, 33.00000183284283, 36.00000165402889, 1);
+	/* background-color: rgba(33.00000183284283, 33.00000183284283, 36.00000165402889, 1); */
 	width: 19.33333396911621px;
 	height: 19.33333396911621px;
 	position: absolute;
 	left: 4.833333492279053px;
 	top: 4.833333492279053px;
+	font-size: 28px;
 }
 
 /* Page 2 CSS */
@@ -887,7 +888,7 @@
 
 .e101_4856 {
 	background-color: rgba(255, 255, 255, 1);
-	width: 1890px;
+	width: 100%;
 	height: 6090px;
 	position: absolute;
 }
