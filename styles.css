@@ -1,3 +1,7 @@
+body{
+	margin:0px;
+}
+
 .e1_2 {
 	overflow: hidden;
 }
@@ -234,7 +238,7 @@
 	-ms-background-clip: text;
 	-ms-text-fill-color: transparent;
 	width: 812px;
-	height: 381px;
+	height: 400px;
 	position: absolute;
 	left: 127px;
 	top: 2164px;
@@ -1413,7 +1417,8 @@
 	height: 29px;
 	position: absolute;
 	left: 1677px;
-	top: 3619px;
+	top: 3610px;
+	font-size: 28px;
 }
 
 .e101_4894 {
