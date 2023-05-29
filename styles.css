@@ -32,7 +32,7 @@
 	border-bottom-left-radius:20px;
 	border-bottom-right-radius:20px;
 	object-fit: cover;
-	background-image:url(../images/rectangle_2.png);
+	background-image:url(images/rectangle_2.png);
 	background-repeat:no-repeat;
 	background-size:cover;
 }
@@ -45,7 +45,7 @@
 	top:1086px;
 	border-top-left-radius: 16px;
 	border-bottom-left-radius: 16px;
-	background-image:url(../images/rectangle_4.png);
+	background-image:url(images/rectangle_4.png);
 	background-repeat:no-repeat;
 	background-size:contain;
 	background-position: center;
@@ -60,12 +60,12 @@
 	border-top-right-radius:20px;
 	border-bottom-left-radius:20px;
 	border-bottom-right-radius:20px;
-	background-image:url(../images/rectangle_7.png);
+	background-image:url(images/rectangle_7.png);
 	background-repeat:no-repeat;
 	background-size:cover;
 }
 .e42_12357 { 
-	background-image:url(../images/rectangle_10.png);
+	background-image:url(images/rectangle_10.png);
 	width:558px;
 	height:687px;
 	position:absolute;
@@ -80,7 +80,7 @@
 	background-position: center;
 }
 .e42_12375 { 
-	background-image:url(../images/rectangle_16.png);
+	background-image:url(images/rectangle_16.png);
 	width:558px;
 	height:687px;
 	position:absolute;
@@ -100,7 +100,7 @@
 	position:absolute;
 	left:100px;
 	top:79px;
-	background-image:url(../images/305035646_489522613181146_2555078499132859130_n_1.png);
+	background-image:url(images/305035646_489522613181146_2555078499132859130_n_1.png);
 	background-repeat:no-repeat;
 	background-size:cover;
 }
@@ -342,7 +342,7 @@
 	text-decoration: underline;
 }
 .e42_12367 { 
-	background-image:url(../images/rectangle_13.png);
+	background-image:url(images/rectangle_13.png);
 	width:510px;
 	height:392px;
 	position:absolute;
@@ -356,7 +356,7 @@
 	background-size:cover;
 }
 .e42_12370 { 
-	background-image:url(../images/rectangle_14.png);
+	background-image:url(images/rectangle_14.png);
 	width:510px;
 	height:392px;
 	position:absolute;
@@ -370,7 +370,7 @@
 	background-size:cover;
 }
 .e42_12372 { 
-	background-image:url(../images/rectangle_15.png);
+	background-image:url(images/rectangle_15.png);
 	width:510px;
 	height:392px;
 	position:absolute;
@@ -399,7 +399,7 @@
 	position:absolute;
 	left:111px;
 	top:4228px;
-	background-image:url(../images/305035646_489522613181146_2555078499132859130_n_2.png);
+	background-image:url(images/305035646_489522613181146_2555078499132859130_n_2.png);
 	background-repeat:no-repeat;
 	background-size:cover;
 }
