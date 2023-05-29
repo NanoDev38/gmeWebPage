@@ -1888,16 +1888,22 @@ body {
 }
 
 .e101_4917 {
-  color: rgba(0, 0, 0, 1);
-  width: 490px;
-  height: 50px;
-  position: absolute;
-  left: 1099px;
-  top: 564px;
-  font-family: Vastago Grotesk;
-  text-align: left;
-  font-size: 40px;
-  letter-spacing: 0.15000000596046448;
+	position: absolute;
+	width: 490px;
+	height: 50px;
+	left: 1099px;
+	top: 564px;
+	
+	font-family: 'Vastago Grotesk';
+	font-style: normal;
+	font-weight: 500;
+	font-size: 40px;
+	line-height: 50px;
+	/* identical to box height */
+	
+	letter-spacing: 0.15px;
+	
+	color: #000000;
 }
 
 .e101_4918 {
@@ -1958,7 +1964,7 @@ body {
   position: absolute;
   left: 0px;
   top: 0px;
-  font-family: DM Sans;
+  font-family: Saes Grotesk;
   text-align: left;
   font-size: 14px;
   letter-spacing: 0;
@@ -2022,7 +2028,7 @@ body {
   position: absolute;
   left: 0px;
   top: 0px;
-  font-family: DM Sans;
+  font-family: Saes Grotesk;
   text-align: left;
   font-size: 14px;
   letter-spacing: 0;
@@ -2086,7 +2092,7 @@ body {
   position: absolute;
   left: 0px;
   top: 0px;
-  font-family: DM Sans;
+  font-family: Saes Grotesk;
   text-align: left;
   font-size: 14px;
   letter-spacing: 0;
@@ -2289,7 +2295,7 @@ body {
 
 .e101_4935 {
   color: rgba(255, 255, 255, 1);
-  width: 79px;
+  width: 90px;
   height: 21px;
   position: absolute;
   left: 641px;
@@ -2315,7 +2321,7 @@ body {
 
 .e101_4937 {
   color: rgba(255, 255, 255, 1);
-  width: 127px;
+  width: 140px;
   height: 21px;
   position: absolute;
   left: 642px;
@@ -2328,7 +2334,7 @@ body {
 
 .e101_4938 {
   color: rgba(255, 255, 255, 1);
-  width: 96px;
+  width: 120px;
   height: 21px;
   position: absolute;
   left: 641px;
