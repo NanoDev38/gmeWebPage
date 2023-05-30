@@ -80,91 +80,283 @@
         text-align: left;
         font: 400 110px 'Space Grotesk', sans-serif;
       }
+      .image-stack {
+        display: grid;
+        position: relative; 
+        grid-template-columns: repeat(12, 1fr);
+        
+      }
+
+      .image-stack__item--bottom {
+        grid-column: 1 / -4;
+        grid-row: 1;
+        /* position: relative;
+        width: 720px; */
+        
+      }
+
+      .image-stack__item--top {
+        grid-row: 1;
+        grid-column: 1 / -4;
+        padding-top: 20%; 
+        z-index: 1; 
+      }
+
+      img {
+        width: 100%;
+        display: block;
+      }
+      .e101_4860 {
+        background-color: rgba(0, 0, 0, 1);
+        width: auto;
+        height: 441px;
+        border-radius: 16px 16px 0px 0px;
+        margin-top: 120px;
+      }
+
+      .e101_4861 {
+        width: 250px;
+        height: 133px;
+        background-image: url(images/gme-icon2.png);
+        background-repeat: no-repeat;
+        background-size: cover;
+        margin-left: 100px;
+        margin-top: 100px;
+      }
+      .e101_4861 {
+        width: 250px;
+        height: 133px;
+        background-image: url(images/gme-icon2.png);
+        background-repeat: no-repeat;
+        background-size: cover;
+        margin-left: 100px;
+        margin-top: 100px;
+      }
+
+      .e101_4862 {
+        color: rgba(255, 255, 255, 1);
+        width: 90px;
+        height: 21px;
+        font-family: "Space Grotesk", sans-serif;
+        text-align: left;
+        font-size: 20px;
+        letter-spacing: 0;
+        margin-top: 95px;
+      }
+      .e101_4870 {
+        color: rgba(255, 255, 255, 1);
+        width: 359px;
+        height: 72px;
+        font-family: "Space Grotesk", sans-serif;
+        text-align: left;
+        font-size: 20px;
+        letter-spacing: 0;
+        line-height: 24px;
+        margin-left: 100px;
+        margin-top: 40px;
+      }
+      .e101_4866 {
+        background-color: rgba(255, 255, 255, 1);
+        width: 467px;
+        height: 48px;
+        border-top-left-radius: 40px;
+        border-top-right-radius: 40px;
+        border-bottom-left-radius: 40px;
+        border-bottom-right-radius: 40px;
+        margin-top: 95px;
+      }
+
+      .ei101_4866_58_6594 {
+        width: 467px;
+        height: 48px;
+        border-top-left-radius: 40px;
+        border-top-right-radius: 40px;
+        border-bottom-left-radius: 40px;
+        border-bottom-right-radius: 40px;
+      }
+
+      .i101_4866_58_6595 {
+        border: 1px solid rgba(187.00000405311584, 199.0000033378601, 223.00000190734863, 1);
+      }
+
+      .ei101_4866_58_6595 {
+        width: 467px;
+        height: 48px;
+        border-top-left-radius: 40px;
+        border-top-right-radius: 40px;
+        border-bottom-left-radius: 40px;
+        border-bottom-right-radius: 40px;
+      }
+
+      .ei101_4866_58_6596 {
+        width: 435px;
+        height: 24px;
+        margin-top: 10px;
+        margin-left: 15px;
+      }
+
+      .ei101_4866_58_6597 {
+        width: 206px;
+        height: 18px;
+      }
+
+      .ei101_4866_58_6598 {
+        color: rgba(71.2450522184372, 85.25854825973511, 141.31250202655792, 1);
+        opacity: 0.5;
+        width: 206px;
+        height: 18px;
+        font-family: Vastago Grotesk;
+        text-align: left;
+        font-size: 14px;
+        letter-spacing: 0;
+      }
+      .e101_4868 {
+      background-color: rgba(157.25000202655792,
+          3.9312538504600525,
+          3.9312538504600525,
+          1);
+      width: 129px;
+      height: 48px;
+      border-top-left-radius: 40px;
+      border-top-right-radius: 40px;
+      border-bottom-left-radius: 40px;
+      border-bottom-right-radius: 40px;
+      margin-left:-125px;
+    }
+
+    .e101_4869 {
+      color: rgba(255, 255, 255, 1);
+      width: 44px;
+      height: 21px;
+      font-family: "Space Grotesk", sans-serif;
+      text-align: left;
+      font-size: 20px;
+      letter-spacing: 0;
+      margin-left: 40px;
+      margin-top: 9px;
+    }
+    .e101_4867 {
+      color: rgba(255, 255, 255, 1);
+      font-family: "Space Grotesk", sans-serif;
+      font-size: 20px;
+      letter-spacing: 0;
+      text-align: right;
+      margin-right: 150px;
+      margin-top: 200px;
+    }
+    .e101_4864 {
+      color: rgba(255, 255, 255, 1);
+      width: 150px;
+      height: 21px;
+      font-family: "Space Grotesk", sans-serif;
+      text-align: left;
+      font-size: 20px;
+      letter-spacing: 0;
+      margin-top: 20px;
+    }
+    .e101_4863 {
+      color: rgba(255, 255, 255, 1);
+      width: 58px;
+      height: 21px;
+      font-family: "Space Grotesk", sans-serif;
+      text-align: left;
+      font-size: 20px;
+      letter-spacing: 0;
+      margin-top: 20px;
+    }
+    .e101_4865 {
+      color: rgba(255, 255, 255, 1);
+      width: 110px;
+      height: 21px;
+      font-family: "Space Grotesk", sans-serif;
+      text-align: left;
+      font-size: 20px;
+      letter-spacing: 0;
+      margin-top: 20px;
+    }
+    .banner-image-1 {
+        background-image: url(images/rectangle_10.png);
+        width: 426px;
+        height: 549px;
+        border-radius: 20px;
+        background: linear-gradient(180deg, rgba(0, 0, 0, 0) 0%, rgba(0, 0, 0, 0.21) 75.52%,
+         rgba(0, 0, 0, 0.7) 100%),
+          url(images/rectangle_10.png);
+        background-repeat: no-repeat;
+        object-fit: cover;
+        background-size: cover;
+        z-index: 0;
+      }
+
+      .banner-image-2 {
+        background-image: url(images/rectangle_16.png);
+        width: 426px;
+        height: 549px;
+        position: absolute;
+        margin-bottom: -303px;
+        margin-left: 90px;
+        border-radius: 20px;
+        background-repeat: no-repeat;
+        background-size: cover;
+        z-index: 1;
+      }
+      .e101_4873 {
+        width: 190px;
+        height: 101px;
+        margin-top: 45px;
+        margin-left: 100px;
+      }
+      .e101_4875 {
+        color: rgba(0, 0, 0, 1);
+        font-family: "Space Grotesk", sans-serif;
+        text-align: left;
+        font-size: 32px;
+        letter-spacing: 0;
+        margin-top: 75px;
+      }
+
+      .e101_4876 {
+        color: rgba(0, 0, 0, 1);
+        font-family: "Space Grotesk", sans-serif;
+        text-align: left;
+        font-size: 32px;
+        letter-spacing: 0;
+        margin-top: 75px;
+      }
+
+      .e101_4877 {
+        color: rgba(0, 0, 0, 1);
+        font-family: "Space Grotesk", sans-serif;
+        text-align: left;
+        font-size: 32px;
+        letter-spacing: 0;
+        margin-top: 75px;
+      }
+
+      .e101_4878 {
+        color: rgba(0, 0, 0, 1);
+        font-family: "Space Grotesk", sans-serif;
+        text-align: left;
+        font-size: 32px;
+        letter-spacing: 0;
+        margin-top: 75px;
+        margin-right: 150px;
+      }
     </style>
   </head>
   <body>
     <div class="top"></div>
-    <header class="bg-white">
-      <nav
-        class="mx-auto flex max-w-7xl items-center justify-between p-6 lg:px-8"
-        aria-label="Global"
-      >
-        <div class="flex lg:flex-1">
-          <a href="#" class="-m-1.5 p-1.5">
-            <span class="sr-only">GME Malaysia</span>
-            <img class="h-32 w-auto" src="images/gme-icon.png" alt="" />
-          </a>
-        </div>
-        <div class="flex lg:hidden">
-          <button
-            type="button"
-            class="-m-2.5 inline-flex items-center justify-center rounded-md p-2.5 text-gray-700"
-          >
-            <span class="sr-only">Open main menu</span>
-            <svg
-              class="h-6 w-6"
-              fill="none"
-              viewBox="0 0 24 24"
-              stroke-width="1.5"
-              stroke="currentColor"
-              aria-hidden="true"
-            >
-              <path
-                stroke-linecap="round"
-                stroke-linejoin="round"
-                d="M3.75 6.75h16.5M3.75 12h16.5m-16.5 5.25h16.5"
-              />
-            </svg>
-          </button>
-        </div>
-        <div class="hidden lg:flex lg:gap-x-12">
-          <a
-            href="#"
-            class="text-sm leading-6 text-gray-900"
-            style="
-               font-family: 'Space Grotesk', sans-serif;
-              font-style: normal;
-              font-weight: 500;
-              font-size: 21px;
-            "
-            >Home</a
-          >
-          <a
-            href="#"
-            class="text-sm font-semibold leading-6 text-gray-900"
-            style="
-               font-family: 'Space Grotesk', sans-serif;
-              font-style: normal;
-              font-weight: 500;
-              font-size: 21px;
-            "
-            >About</a
-          >
-          <a
-            href="#"
-            class="text-sm font-semibold leading-6 text-gray-900"
-            style="
-               font-family: 'Space Grotesk', sans-serif;
-              font-style: normal;
-              font-weight: 500;
-              font-size: 21px;
-            "
-            >Events</a
-          >
-          <a
-            href="#"
-            class="text-sm font-semibold leading-6 text-gray-900"
-            style="
-               font-family: 'Space Grotesk', sans-serif;
-              font-style: normal;
-              font-weight: 500;
-              font-size: 21px;
-            "
-            >Contact</a
-          >
-        </div>
-      </nav>
-    </header>
+    <div class="bg-white">
+      <container class="flex justify-between">
+        <img class="e101_4873 col-span-1 bg-white" src="images/gme-icon.png"></img>
+        <ul class="flex gap-10 ">
+            <li class="e101_4875">Home</li>
+            <a href="About.html"><li class="e101_4876">About</li></a>
+            <li class="e101_4877">Events</li>
+            <a href="ContactUs.html"><li class="e101_4878">Contact</li></a>
+        </ul>
+    </container>
+    </div>
     <div class="md:container md:mx-auto">
       <div class="main-banner bg-cover"></div>
     </div>
@@ -325,101 +517,51 @@
         </div>
         <div class="w-2/4">
           <div class="flex">
-            <div class="w-2/4">
-              <div class="banner2 bg-cover"></div>
+            <div class="w-1/2 flex flex-col justify-center">
+              <div class="banner-image-1"></div>
+              <div class="banner-image-2"></div>
             </div>
-            <div class="w-2/4 mr-3">
+            <!-- <div class="w-2/4 mr-3">
               <div class="banner2 bg-cover"></div>
-            </div>
+            </div> -->
           </div>
         </div>
+        
       </div>
     </div>
-    <div class="md:container md:mx-auto mt-8">
-      
-    </div>
-    <!-- Mobile menu, show/hide based on menu open state. -->
-    <div class="lg:hidden" role="dialog" aria-modal="true">
-      <!-- Background backdrop, show/hide based on slide-over state. -->
-      <div class="fixed inset-0 z-10"></div>
-      <div
-        class="fixed inset-y-0 right-0 z-10 w-full overflow-y-auto bg-white px-6 py-6 sm:max-w-sm sm:ring-1 sm:ring-gray-900/10"
-      >
-        <div class="flex items-center justify-between">
-          <a href="#" class="-m-1.5 p-1.5">
-            <span class="sr-only">GME Company</span>
-            <img class="h-32 w-auto" src="images/gme-icon.png" alt="" />
-          </a>
-          <button type="button" class="-m-2.5 rounded-md p-2.5 text-gray-700">
-            <span class="sr-only">Close menu</span>
-            <svg
-              class="h-6 w-6"
-              fill="none"
-              viewBox="0 0 24 24"
-              stroke-width="1.5"
-              stroke="currentColor"
-              aria-hidden="true"
-            >
-              <path
-                stroke-linecap="round"
-                stroke-linejoin="round"
-                d="M6 18L18 6M6 6l12 12"
-              />
-            </svg>
-          </button>
-        </div>
-        <div class="mt-6 flow-root">
-          <div class="-my-6 divide-y divide-gray-500/10">
-            <div class="space-y-2 py-6">
-              <div class="-mx-3"></div>
-              <a
-                href="#"
-                class="-mx-3 block rounded-lg px-3 py-2 text-base font-semibold leading-7 text-gray-900 hover:bg-gray-50"
-                style="
-                   font-family: 'Space Grotesk', sans-serif;
-                  font-style: normal;
-                  font-weight: 500;
-                  font-size: 21px;
-                "
-                >Home</a
-              >
-              <a
-                href="#"
-                class="-mx-3 block rounded-lg px-3 py-2 text-base font-semibold leading-7 text-gray-900 hover:bg-gray-50"
-                style="
-                   font-family: 'Space Grotesk', sans-serif;
-                  font-style: normal;
-                  font-weight: 500;
-                  font-size: 21px;
-                "
-                >About</a
-              >
-              <a
-                href="#"
-                class="-mx-3 block rounded-lg px-3 py-2 text-base font-semibold leading-7 text-gray-900 hover:bg-gray-50"
-                style="
-                   font-family: 'Space Grotesk', sans-serif;
-                  font-style: normal;
-                  font-weight: 500;
-                  font-size: 21px;
-                "
-                >Events</a
-              >
-              <a
-                href="#"
-                class="-mx-3 block rounded-lg px-3 py-2 text-base font-semibold leading-7 text-gray-900 hover:bg-gray-50"
-                style="
-                   font-family: 'Space Grotesk', sans-serif;
-                  font-style: normal;
-                  font-weight: 500;
-                  font-size: 21px;
-                "
-                >Contact</a
-              >
-            </div>
+    <container class="">
+      <div class="e101_4860 grid grid-cols-3">
+          <div>
+              <div class="e101_4861"></div>
+              <div class="e101_4870">Serves as a hub for top-notch film production and casting services across
+                  Southeast Asia.</div>
           </div>
-        </div>
+          <div class="e101_4862">About Us
+              <div class="e101_4863">Events
+                  <div class="e101_4864">Past
+                      Portfolios
+                      <div class="e101_4865">Contact Us</div>
+                  </div>
+              </div>
+          </div>
+          <div>
+              <div class="e101_4866 flex">
+                  <div class="ei101_4866_58_6594">
+                      <div class="ei101_4866_58_6595">
+                          <div class="ei101_4866_58_6596">
+                              <div class="ei101_4866_58_6597">
+                                  <span class="ei101_4866_58_6598">Email </span>
+                              </div>
+                          </div>
+                      </div>
+                  </div>
+                  <div class="e101_4868">
+                      <div class="e101_4869">Send</div>
+                  </div>
+              </div>
+              <div class="e101_4867">GME All Rights Reserved.</div>
+          </div>
       </div>
-    </div>
+  </container>
   </body>
 </html>
