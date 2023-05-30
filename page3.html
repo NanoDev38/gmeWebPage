@@ -30,7 +30,7 @@
 
       .main-banner {
         width: 100%; /* Adjust the width as needed */
-        height: 1140px;
+        height: 1018px;
         background-color: #f8f7fa;
         border-radius: 20px;
       }
@@ -40,6 +40,31 @@
         height: 408px;
         background-color: #f8f7fa;
         border-radius: 20px;
+      }
+
+      .banner-image-1 {
+        background-image: url(images/rectangle_10.png);
+        width: 426px;
+        height: 549px;
+        position: absolute;
+        left: 160px;
+        top: 340px;
+        border-radius: 20px;
+        background: linear-gradient(180deg, rgba(0, 0, 0, 0) 0%, rgba(0, 0, 0, 0.21) 75.52%,
+         rgba(0, 0, 0, 0.7) 100%),
+          url(images/rectangle_10.png);
+      }
+
+      .banner-image-2 {
+        background-image: url(images/rectangle_16.png);
+        width: 426px;
+        height: 549px;
+        position: absolute;
+        left: 245px;
+        top: 540px;
+        border-radius: 20px;
+        background-repeat: no-repeat;
+        background-size: cover;
       }
     </style>
   </head>
@@ -55,28 +80,6 @@
             <span class="sr-only">GME Malaysia</span>
             <img class="h-32 w-auto" src="images/gme-icon.png" alt="" />
           </a>
-        </div>
-        <div class="flex lg:hidden">
-          <button
-            type="button"
-            class="-m-2.5 inline-flex items-center justify-center rounded-md p-2.5 text-gray-700"
-          >
-            <span class="sr-only">Open main menu</span>
-            <svg
-              class="h-6 w-6"
-              fill="none"
-              viewBox="0 0 24 24"
-              stroke-width="1.5"
-              stroke="currentColor"
-              aria-hidden="true"
-            >
-              <path
-                stroke-linecap="round"
-                stroke-linejoin="round"
-                d="M3.75 6.75h16.5M3.75 12h16.5m-16.5 5.25h16.5"
-              />
-            </svg>
-          </button>
         </div>
         <div class="hidden lg:flex lg:gap-x-12">
           <a
@@ -131,11 +134,11 @@
         <div class="flex items-center justify-center">
           <!-- Added 'items-center justify-center' classes -->
           <div
-            class="w-1/2 flex items-center justify-center mx-auto text-center"
+            class="w-1/2 flex flex-col justify-center"
           >
-            <!-- Added 'flex items-center justify-center' classes -->
-            <!-- Your content here -->
-          </div>
+          <div class="banner-image-1"></div>
+          <div class="banner-image-2"></div>
+        </div>
           <div
             class="w-1/2 flex flex-col justify-center"
             style="padding-right: 100px; padding-left: 50px; padding-top: 22.5%"
