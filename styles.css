@@ -666,7 +666,7 @@
 
 .e101_4857 {
   background-image: url(images/rectangle_13.png);
-  width: 1719px;
+  width: auto;
   height: 836px;
   border-radius: 20px;
   background-repeat: no-repeat;
@@ -945,13 +945,7 @@
 .e101_4881 {
   width: 275px;
   height: 78px;
-  left: 1246px;
-  top: 5400px;
-  background-image: url(images/spritzer_logo.png);
-  background-repeat: no-repeat;
-  background-size: cover;
-  margin-top: 75px;
-  margin-left: 100px;
+  margin-top: 125px;
 }
 
 .e101_4882 {
@@ -981,22 +975,12 @@
 .e101_4884 {
   width: 359px;
   height: 101px;
-  left: 787px;
-  top: 5390px;
-  background-image: url(images/sunway_logo_1.png);
-  background-repeat: no-repeat;
-  background-size: cover;
-  margin-top: 75px;
+  margin-top: 125px;
 }
 
 .e101_4885 {
   width: 293px;
   height: 176px;
-  background-image: url(images/axiata_logo_1.png);
-  background-repeat: no-repeat;
-  background-size: cover;
-  margin-right: 100px;
-  margin-left: 350px;
 }
 
 .e101_4886 {
@@ -1327,12 +1311,6 @@
 .container-align {
     margin-top: 50px;
 }
-
-.service-alignment {
-    margin-left: 130px;
-    margin-top: 90px;
-}
-
 /* Page 3 */
 .e101_4913 {
   overflow: hidden;
