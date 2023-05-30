@@ -1,139 +1,144 @@
 <!DOCTYPE html>
 <html lang="en">
-  <head>
-    <meta charset="UTF-8" />
-    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <script src="https://cdn.tailwindcss.com"></script>
-    <script
-      src="https://kit.fontawesome.com/bb8f73d07f.js"
-      crossorigin="anonymous"
-    ></script>
-    <link
-      rel="stylesheet"
-      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css"
-      integrity="sha384-...the rest of the integrity value..."
-      crossorigin="anonymous"
-    />
-    <title>Home</title>
 
-    <style>
-      .top {
-        width: auto;
-        height: 38px;
-        background: #000000;
-      }
+<head>
+  <meta charset="UTF-8" />
+  <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <script src="https://cdn.tailwindcss.com"></script>
+  <script src="https://kit.fontawesome.com/bb8f73d07f.js" crossorigin="anonymous"></script>
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css"
+    integrity="sha384-...the rest of the integrity value..." crossorigin="anonymous" />
+  <title>Home</title>
 
-      .main-banner {
-        width: 100%; /* Adjust the width as needed */
-        height: 687px;
-        background-image: url(images/banner1.png);
-        background-repeat: no-repeat;
-        background-size: cover;
-        background-color: #000000;
-        border-radius: 20px;
-      }
+  <style>
+    .top {
+      width: auto;
+      height: 38px;
+      background: #000000;
+    }
 
-      .banner {
-        width: 100%;
-        height: 100%;
-        padding-bottom: 100%; /* 16:9 aspect ratio (adjust as needed) */
-        background-image: url(images/banner2.png);
-        border-radius: 20px 0px 0px 20px;
-      }
-      .banner2 {
-        width: 100%;
-        height: 100%;
-        padding-bottom: 100%; /* 16:9 aspect ratio (adjust as needed) */
-        background-image: url(images/rectangle_7.png);
-        border-radius: 10px;
-      }
-      .me-song{
-        width: 100%;
-        height: 100%;
-        padding-bottom: 100%;
-        background-color: #F8F7FA;
-        border-radius: 10px;
-      }
-      .circle-1 {
-          background: #30cc2d;
-          border-radius: 50%;
-          width: 8px;
-          height: 8px;
-      }
-      .circle-2 {
-          background: #30cc2d;
-          border-radius: 50%;
-          width: 8px;
-          height: 8px;
-      }
-      .circle-3 {
-          background: #CC2D2D;
-          border-radius: 50%;
-          width: 8px;
-          height: 8px;
-      }
-      .entertainment-that-brings-joy-to-life {
-        background: linear-gradient(98.96deg, #000000 15.23%, #a01111 73.46%);
-        -webkit-background-clip: text;
-        -webkit-text-fill-color: transparent;
-        text-align: left;
-        font: 500 90px 'Space Grotesk', sans-serif;
-      }
-      .image-stack {
-        display: grid;
-        position: relative; 
-        grid-template-columns: repeat(12, 1fr);
-        
-      }
+    .main-banner {
+      width: 100%;
+      /* Adjust the width as needed */
+      height: 687px;
+      background-image: url(images/banner1.png);
+      background-repeat: no-repeat;
+      background-size: cover;
+      background-color: #000000;
+      border-radius: 20px;
+    }
 
-      .image-stack__item--bottom {
-        grid-column: 1 / -4;
-        grid-row: 1;
-        /* position: relative;
+    .banner {
+      width: 100%;
+      height: 100%;
+      padding-bottom: 100%;
+      /* 16:9 aspect ratio (adjust as needed) */
+      background-image: url(images/banner2.png);
+      border-radius: 20px 0px 0px 20px;
+    }
+
+    .banner2 {
+      width: 100%;
+      height: 100%;
+      padding-bottom: 100%;
+      /* 16:9 aspect ratio (adjust as needed) */
+      background-image: url(images/rectangle_7.png);
+      border-radius: 10px;
+    }
+
+    .me-song {
+      width: 100%;
+      height: 100%;
+      padding-bottom: 100%;
+      background-color: #F8F7FA;
+      border-radius: 10px;
+    }
+
+    .circle-1 {
+      background: #30cc2d;
+      border-radius: 50%;
+      width: 8px;
+      height: 8px;
+    }
+
+    .circle-2 {
+      background: #30cc2d;
+      border-radius: 50%;
+      width: 8px;
+      height: 8px;
+    }
+
+    .circle-3 {
+      background: #CC2D2D;
+      border-radius: 50%;
+      width: 8px;
+      height: 8px;
+    }
+
+    .entertainment-that-brings-joy-to-life {
+      background: linear-gradient(98.96deg, #000000 15.23%, #a01111 73.46%);
+      -webkit-background-clip: text;
+      -webkit-text-fill-color: transparent;
+      text-align: left;
+      font: 500 90px 'Space Grotesk', sans-serif;
+    }
+
+    .image-stack {
+      display: grid;
+      position: relative;
+      grid-template-columns: repeat(12, 1fr);
+
+    }
+
+    .image-stack__item--bottom {
+      grid-column: 1 / -4;
+      grid-row: 1;
+      /* position: relative;
         width: 720px; */
-        
-      }
 
-      .image-stack__item--top {
-        grid-row: 1;
-        grid-column: 1 / -4;
-        padding-top: 20%; 
-        z-index: 1; 
-      }
+    }
 
-      img {
-        width: 100%;
-        display: block;
-      }
-      .e101_4860 {
+    .image-stack__item--top {
+      grid-row: 1;
+      grid-column: 1 / -4;
+      padding-top: 20%;
+      z-index: 1;
+    }
+
+    img {
+      width: 100%;
+      display: block;
+    }
+
+    .e101_4860 {
         background-color: rgba(0, 0, 0, 1);
         width: auto;
-        height: 441px;
-        /* border-radius: 16px 16px 0px 0px; */
-        margin-top: 0px;
-      }
+        height: 371px;
+        border-radius: 16px 16px 0px 0px;
+    }
 
-      .e101_4861 {
+    .e101_4861 {
+      width: 250px;
+      height: 133px;
+      background-image: url(images/gme-icon2.png);
+      background-repeat: no-repeat;
+      background-size: cover;
+      margin-left: 100px;
+      margin-top: 100px;
+    }
+
+    .e101_4861 {
         width: 250px;
         height: 133px;
         background-image: url(images/gme-icon2.png);
         background-repeat: no-repeat;
         background-size: cover;
         margin-left: 100px;
-        margin-top: 100px;
-      }
-      .e101_4861 {
-        width: 250px;
-        height: 133px;
-        background-image: url(images/gme-icon2.png);
-        background-repeat: no-repeat;
-        background-size: cover;
-        margin-left: 100px;
-        margin-top: 100px;
-      }
+        margin-top: 70px;
+    }
 
-      .e101_4862 {
+    .e101_4862 {
         color: rgba(255, 255, 255, 1);
         width: 90px;
         height: 21px;
@@ -141,21 +146,23 @@
         text-align: left;
         font-size: 20px;
         letter-spacing: 0;
-        margin-top: 95px;
-      }
-      .e101_4870 {
-        color: rgba(255, 255, 255, 1);
-        width: 359px;
-        height: 72px;
-        font-family: "Space Grotesk", sans-serif;
-        text-align: left;
-        font-size: 20px;
-        letter-spacing: 0;
-        line-height: 24px;
-        margin-left: 100px;
-        margin-top: 40px;
-      }
-      .e101_4866 {
+        margin-top: 65px;
+    }
+
+    .e101_4870 {
+      color: rgba(255, 255, 255, 1);
+      width: 359px;
+      height: 72px;
+      font-family: "Space Grotesk", sans-serif;
+      text-align: left;
+      font-size: 20px;
+      letter-spacing: 0;
+      line-height: 24px;
+      margin-left: 100px;
+      margin-top: 40px;
+    }
+
+    .e101_4866 {
         background-color: rgba(255, 255, 255, 1);
         width: 467px;
         height: 48px;
@@ -163,54 +170,55 @@
         border-top-right-radius: 40px;
         border-bottom-left-radius: 40px;
         border-bottom-right-radius: 40px;
-        margin-top: 95px;
-      }
+        margin-top: 65px;
+    }
 
-      .ei101_4866_58_6594 {
-        width: 467px;
-        height: 48px;
-        border-top-left-radius: 40px;
-        border-top-right-radius: 40px;
-        border-bottom-left-radius: 40px;
-        border-bottom-right-radius: 40px;
-      }
+    .ei101_4866_58_6594 {
+      width: 467px;
+      height: 48px;
+      border-top-left-radius: 40px;
+      border-top-right-radius: 40px;
+      border-bottom-left-radius: 40px;
+      border-bottom-right-radius: 40px;
+    }
 
-      .i101_4866_58_6595 {
-        border: 1px solid rgba(187.00000405311584, 199.0000033378601, 223.00000190734863, 1);
-      }
+    .i101_4866_58_6595 {
+      border: 1px solid rgba(187.00000405311584, 199.0000033378601, 223.00000190734863, 1);
+    }
 
-      .ei101_4866_58_6595 {
-        width: 467px;
-        height: 48px;
-        border-top-left-radius: 40px;
-        border-top-right-radius: 40px;
-        border-bottom-left-radius: 40px;
-        border-bottom-right-radius: 40px;
-      }
+    .ei101_4866_58_6595 {
+      width: 467px;
+      height: 48px;
+      border-top-left-radius: 40px;
+      border-top-right-radius: 40px;
+      border-bottom-left-radius: 40px;
+      border-bottom-right-radius: 40px;
+    }
 
-      .ei101_4866_58_6596 {
-        width: 435px;
-        height: 24px;
-        margin-top: 10px;
-        margin-left: 15px;
-      }
+    .ei101_4866_58_6596 {
+      width: 435px;
+      height: 24px;
+      margin-top: 10px;
+      margin-left: 15px;
+    }
 
-      .ei101_4866_58_6597 {
-        width: 206px;
-        height: 18px;
-      }
+    .ei101_4866_58_6597 {
+      width: 206px;
+      height: 18px;
+    }
 
-      .ei101_4866_58_6598 {
-        color: rgba(71.2450522184372, 85.25854825973511, 141.31250202655792, 1);
-        opacity: 0.5;
-        width: 206px;
-        height: 18px;
-        font-family: Vastago Grotesk;
-        text-align: left;
-        font-size: 14px;
-        letter-spacing: 0;
-      }
-      .e101_4868 {
+    .ei101_4866_58_6598 {
+      color: rgba(71.2450522184372, 85.25854825973511, 141.31250202655792, 1);
+      opacity: 0.5;
+      width: 206px;
+      height: 18px;
+      font-family: Vastago Grotesk;
+      text-align: left;
+      font-size: 14px;
+      letter-spacing: 0;
+    }
+
+    .e101_4868 {
       background-color: rgba(157.25000202655792,
           3.9312538504600525,
           3.9312538504600525,
@@ -221,7 +229,7 @@
       border-top-right-radius: 40px;
       border-bottom-left-radius: 40px;
       border-bottom-right-radius: 40px;
-      margin-left:-125px;
+      margin-left: -125px;
     }
 
     .e101_4869 {
@@ -235,15 +243,17 @@
       margin-left: 40px;
       margin-top: 9px;
     }
+
     .e101_4867 {
-      color: rgba(255, 255, 255, 1);
-      font-family: "Space Grotesk", sans-serif;
-      font-size: 20px;
-      letter-spacing: 0;
-      text-align: right;
-      margin-right: 150px;
-      margin-top: 200px;
+        color: rgba(255, 255, 255, 1);
+        font-family: "Space Grotesk", sans-serif;
+        font-size: 20px;
+        letter-spacing: 0;
+        text-align: right;
+        margin-right: 150px;
+        margin-top: 180px;
     }
+
     .e101_4864 {
       color: rgba(255, 255, 255, 1);
       width: 150px;
@@ -254,6 +264,7 @@
       letter-spacing: 0;
       margin-top: 20px;
     }
+
     .e101_4863 {
       color: rgba(255, 255, 255, 1);
       width: 58px;
@@ -264,6 +275,7 @@
       letter-spacing: 0;
       margin-top: 20px;
     }
+
     .e101_4865 {
       color: rgba(255, 255, 255, 1);
       width: 110px;
@@ -274,340 +286,391 @@
       letter-spacing: 0;
       margin-top: 20px;
     }
+
     .banner-image-1 {
-        background-image: url(images/rectangle_10.png);
-        width: 426px;
-        height: 549px;
-        border-radius: 20px;
-        background: linear-gradient(180deg, rgba(0, 0, 0, 0) 0%, rgba(0, 0, 0, 0.21) 75.52%,
-         rgba(0, 0, 0, 0.7) 100%),
-          url(images/rectangle_10.png);
-        background-repeat: no-repeat;
-        object-fit: cover;
-        background-size: cover;
-        z-index: 0;
-      }
+      background-image: url(images/rectangle_10.png);
+      width: 426px;
+      height: 549px;
+      border-radius: 20px;
+      background: linear-gradient(180deg, rgba(0, 0, 0, 0) 0%, rgba(0, 0, 0, 0.21) 75.52%,
+          rgba(0, 0, 0, 0.7) 100%),
+        url(images/rectangle_10.png);
+      background-repeat: no-repeat;
+      object-fit: cover;
+      background-size: cover;
+      z-index: 0;
+    }
 
-      .banner-image-2 {
-        background-image: url(images/rectangle_16.png);
-        width: 426px;
-        height: 549px;
-        position: absolute;
-        margin-bottom: -303px;
-        margin-left: 90px;
-        border-radius: 20px;
-        background-repeat: no-repeat;
-        background-size: cover;
-        z-index: 1;
-      }
-      .latest-image-1 {
-        background-image: url(images/rectangle_13.png);
-        width: 383px;
-        height: 365px;
-        border-radius: 20px;
-        background-repeat: no-repeat;
-        background-size: cover;
-      }
+    .banner-image-2 {
+      background-image: url(images/rectangle_16.png);
+      width: 426px;
+      height: 549px;
+      position: absolute;
+      margin-bottom: -303px;
+      margin-left: 90px;
+      border-radius: 20px;
+      background-repeat: no-repeat;
+      background-size: cover;
+      z-index: 1;
+    }
 
-      .latest-image-2 {
-        background-image: url(images/rectangle_14.png);
-        width: 383px;
-        height: 365px;
-        border-radius: 20px;
-        background-repeat: no-repeat;
-        background-size: cover;
-      }
-      .latest-image-3 {
-        background-image: url(images/rectangle_15.png);
-        width: 383px;
-        height: 365px;
-        border-radius: 20px;
-        background-repeat: no-repeat;
-        background-size: cover;
-      }
-      .e101_4873 {
-        width: 190px;
-        height: 101px;
-        margin-top: 45px;
-        margin-left: 100px;
-      }
-      .e101_4875 {
-        color: rgba(0, 0, 0, 1);
-        font-family: "Space Grotesk", sans-serif;
-        text-align: left;
-        font-size: 32px;
-        letter-spacing: 0;
-        margin-top: 75px;
-      }
+    .latest-image-1 {
+      background-image: url(images/rectangle_13.png);
+      width: 383px;
+      height: 365px;
+      border-radius: 20px;
+      background-repeat: no-repeat;
+      background-size: cover;
+    }
 
-      .e101_4876 {
-        color: rgba(0, 0, 0, 1);
-        font-family: "Space Grotesk", sans-serif;
-        text-align: left;
-        font-size: 32px;
-        letter-spacing: 0;
-        margin-top: 75px;
-      }
+    .latest-image-2 {
+      background-image: url(images/rectangle_14.png);
+      width: 383px;
+      height: 365px;
+      border-radius: 20px;
+      background-repeat: no-repeat;
+      background-size: cover;
+    }
 
-      .e101_4877 {
-        color: rgba(0, 0, 0, 1);
-        font-family: "Space Grotesk", sans-serif;
-        text-align: left;
-        font-size: 32px;
-        letter-spacing: 0;
-        margin-top: 75px;
-      }
+    .latest-image-3 {
+      background-image: url(images/rectangle_15.png);
+      width: 383px;
+      height: 365px;
+      border-radius: 20px;
+      background-repeat: no-repeat;
+      background-size: cover;
+    }
 
-      .e101_4878 {
-        color: rgba(0, 0, 0, 1);
-        font-family: "Space Grotesk", sans-serif;
-        text-align: left;
-        font-size: 32px;
-        letter-spacing: 0;
-        margin-top: 75px;
-        margin-right: 150px;
-      }
-    </style>
-  </head>
-  <body>
-    <div class="top"></div>
-    <div class="bg-white">
-      <container class="flex justify-between">
-        <img class="e101_4873 col-span-1 bg-white" src="images/gme-icon.png"></img>
-        <ul class="flex gap-10 ">
-            <li class="e101_4875"><a href="home.html">Home</a></li>
-            <a href="About.html"><li class="e101_4876">About</li></a>
-            <li class="e101_4877">Events</li>
-            <a href="ContactUs.html"><li class="e101_4878">Contact</li></a>
-        </ul>
+    .e101_4873 {
+      width: 160px;
+      height: 81px;
+      margin-top: 45px;
+      margin-left: 100px;
+    }
+
+    .e101_4875 {
+      color: rgba(0, 0, 0, 1);
+      font-family: "Space Grotesk", sans-serif;
+      text-align: left;
+      font-size: 25px;
+      letter-spacing: 0;
+      margin-top: 75px;
+    }
+
+    .e101_4876 {
+      color: rgba(0, 0, 0, 1);
+      font-family: "Space Grotesk", sans-serif;
+      text-align: left;
+      font-size: 25px;
+      letter-spacing: 0;
+      margin-top: 75px;
+    }
+
+    .e101_4877 {
+      color: rgba(0, 0, 0, 1);
+      font-family: "Space Grotesk", sans-serif;
+      text-align: left;
+      font-size: 25px;
+      letter-spacing: 0;
+      margin-top: 75px;
+    }
+
+    .e101_4878 {
+      color: rgba(0, 0, 0, 1);
+      font-family: "Space Grotesk", sans-serif;
+      text-align: left;
+      font-size: 25px;
+      letter-spacing: 0;
+      margin-top: 75px;
+      margin-right: 150px;
+    }
+  </style>
+</head>
+
+<body>
+  <div class="top"></div>
+  <div class="bg-white">
+    <container class="flex justify-between">
+      <img class="e101_4873 col-span-1 bg-white" src="images/gme-icon.png"></img>
+      <ul class="flex gap-10 ">
+        <li class="e101_4875"><a href="index.html">Home</a></li>
+        <a href="About.html">
+          <li class="e101_4876">About</li>
+        </a>
+        <li class="e101_4877">Events</li>
+        <a href="ContactUs.html">
+          <li class="e101_4878">Contact</li>
+        </a>
+      </ul>
     </container>
-    </div>
-    <div class="md:container md:mx-auto">
-      <div class="main-banner bg-cover"></div>
-    </div>
-    <div class="md:container md:mx-auto mt-16">
-      <div class="flex">
-        <div class="w-1/2">
-          <p
-            style="
+  </div>
+  <div class="md:container md:mx-auto">
+    <div class="main-banner bg-cover"></div>
+  </div>
+  <div class="md:container md:mx-auto mt-16">
+    <div class="flex">
+      <div class="w-1/2">
+        <p style="
                font-family: 'Space Grotesk', sans-serif;
               font-style: normal;
               font-weight: 500;
               font-size: 42px;
               color: #000000;
-            "
-          >
-            Upcoming Events
-          </p>
-        </div>
-        <div class="w-1/2 flex items-center space-x-12 justify-end mr-4">
-          <i class="fa fa-light fa-arrow-left fa-2xl"></i>
-          <i class="fa fa-light fa-arrow-right fa-2xl"></i>
-        </div>
+            ">
+          Upcoming Events
+        </p>
+      </div>
+      <div class="w-1/2 flex items-center space-x-12 justify-end mr-4">
+        <i class="fa fa-light fa-arrow-left fa-2xl"></i>
+        <i class="fa fa-light fa-arrow-right fa-2xl"></i>
       </div>
     </div>
-    <div class="md:container md:mx-auto">
-      <div class="flex">
-        <div class="w-1/3">
-          <div class="banner bg-cover"></div>
-        </div>
-        <div class="w-1/3">
-          <div class="me-song p-12">
-            <p
-            style=" font-family: 'Space Grotesk', sans-serif; font-style: normal; font-weight: 500; font-size: 42px; color: #000000;">Me &amp; Song
-            </p>
-            <p
-            class="pt-3" style=" font-family: 'Space Grotesk', sans-serif; font-style: normal; font-weight: bold; font-size: 22px; color: #000000;">Sam Lee
-            </p>
-            <p
-            style=" font-family: 'Space Grotesk', sans-serif; font-style: normal; font-weight: 500; font-size: 22px; color: #000000;">27 May 2023 | Arena of Star
-            </p>
-            <div class="flex pt-12">
-              <div class="w-1/3">
-                <div class="flex">
-                  <div class="w-1/3">
-                    <p style=" font-family: 'Space Grotesk', sans-serif; font-style: normal; font-weight: 600; font-size: 22px; color: #000000;">VIP</p>      
-                  </div>
-                  <div class="w-1/3">
-                    <div class="circle-2"></div>
-                  </div>
+  </div>
+  <div class="md:container md:mx-auto">
+    <div class="flex">
+      <div class="w-1/3">
+        <div class="banner bg-cover"></div>
+      </div>
+      <div class="w-1/3">
+        <div class="me-song p-12">
+          <p
+            style=" font-family: 'Space Grotesk', sans-serif; font-style: normal; font-weight: 500; font-size: 42px; color: #000000;">
+            Me &amp; Song
+          </p>
+          <p class="pt-3"
+            style=" font-family: 'Space Grotesk', sans-serif; font-style: normal; font-weight: bold; font-size: 22px; color: #000000;">
+            Sam Lee
+          </p>
+          <p
+            style=" font-family: 'Space Grotesk', sans-serif; font-style: normal; font-weight: 500; font-size: 22px; color: #000000;">
+            27 May 2023 | Arena of Star
+          </p>
+          <div class="flex pt-12">
+            <div class="w-1/3">
+              <div class="flex">
+                <div class="w-1/3">
+                  <p
+                    style=" font-family: 'Space Grotesk', sans-serif; font-style: normal; font-weight: 600; font-size: 22px; color: #000000;">
+                    VIP</p>
                 </div>
-              </div>
-              <div class="w-1/3">
-                <div>
-                  <p style=" font-family: 'Space Grotesk', sans-serif; font-style: normal; font-weight: 600; font-size: 22px; color: #000000;">RM123</p>
-                </div>
-              </div>
-            </div>
-            <div class="flex pt-2">
-              <div class="w-1/3">
-                <div class="flex">
-                  <div class="w-1/3">
-                    <p style=" font-family: 'Space Grotesk', sans-serif; font-style: normal; font-weight: 600; font-size: 22px; color: #000000;">PS1</p>      
-                  </div>
-                  <div class="w-1/3">
-                    <div class="circle-2"></div>
-                  </div>
-                </div>
-              </div>
-              <div class="w-1/3">
-                <div>
-                  <p style=" font-family: 'Space Grotesk', sans-serif; font-style: normal; font-weight: 600; font-size: 22px; color: #000000;">RM123</p>
+                <div class="w-1/3">
+                  <div class="circle-2"></div>
                 </div>
               </div>
             </div>
-            <div class="flex pt-2">
-              <div class="w-1/3">
-                <div class="flex">
-                  <div class="w-1/3">
-                    <p style=" font-family: 'Space Grotesk', sans-serif; font-style: normal; font-weight: 600; font-size: 22px; color: #000000;">PS2</p>      
-                  </div>
-                  <div class="w-1/3">
-                    <div class="circle-3"></div>
-                  </div>
-                </div>
-              </div>
-              <div class="w-1/3">
-                <div>
-                  <p style=" font-family: 'Space Grotesk', sans-serif; font-style: normal; font-weight: 600; font-size: 22px; color: #000000;">RM123</p>
-                </div>
+            <div class="w-1/3">
+              <div>
+                <p
+                  style=" font-family: 'Space Grotesk', sans-serif; font-style: normal; font-weight: 600; font-size: 22px; color: #000000;">
+                  RM123</p>
               </div>
             </div>
-            <div class="pt-2">
-              <hr class="h-px my-8 bg-gray-900 border-0 dark:bg-gray-900">
-            </div>
-            <div class="flex">
-              <div class="w-1/3">
-                <div class="flex items-center">
-                  <div class="w-1/5 justify-center">
-                    <div class="circle-1"></div>
-                  </div>
-                  <div class="w-1/1">
-                    <p style=" font-family: 'Space Grotesk', sans-serif; font-style: normal; font-weight: 500; font-size: 14px; color: #000000;">Tickets Available</p>
-                  </div>
+          </div>
+          <div class="flex pt-2">
+            <div class="w-1/3">
+              <div class="flex">
+                <div class="w-1/3">
+                  <p
+                    style=" font-family: 'Space Grotesk', sans-serif; font-style: normal; font-weight: 600; font-size: 22px; color: #000000;">
+                    PS1</p>
+                </div>
+                <div class="w-1/3">
+                  <div class="circle-2"></div>
                 </div>
               </div>
             </div>
-            <div class="flex">
-              <div class="w-1/3">
-                <div class="flex items-center">
-                  <div class="w-1/5 justify-center">
-                    <div class="circle-3"></div>
-                  </div>
-                  <div class="w-1/1">
-                    <p style=" font-family: 'Space Grotesk', sans-serif; font-style: normal; font-weight: 500; font-size: 14px; color: #000000;">Sold Out</p>
-                  </div>
+            <div class="w-1/3">
+              <div>
+                <p
+                  style=" font-family: 'Space Grotesk', sans-serif; font-style: normal; font-weight: 600; font-size: 22px; color: #000000;">
+                  RM123</p>
+              </div>
+            </div>
+          </div>
+          <div class="flex pt-2">
+            <div class="w-1/3">
+              <div class="flex">
+                <div class="w-1/3">
+                  <p
+                    style=" font-family: 'Space Grotesk', sans-serif; font-style: normal; font-weight: 600; font-size: 22px; color: #000000;">
+                    PS2</p>
+                </div>
+                <div class="w-1/3">
+                  <div class="circle-3"></div>
                 </div>
               </div>
             </div>
-           <div class="flex mt-12 justify-end">
+            <div class="w-1/3">
+              <div>
+                <p
+                  style=" font-family: 'Space Grotesk', sans-serif; font-style: normal; font-weight: 600; font-size: 22px; color: #000000;">
+                  RM123</p>
+              </div>
+            </div>
+          </div>
+          <div class="pt-2">
+            <hr class="h-px my-8 bg-gray-900 border-0 dark:bg-gray-900">
+          </div>
+          <div class="flex">
+            <div class="w-1/3">
+              <div class="flex items-center">
+                <div class="w-1/5 justify-center">
+                  <div class="circle-1"></div>
+                </div>
+                <div class="w-1/1">
+                  <p
+                    style=" font-family: 'Space Grotesk', sans-serif; font-style: normal; font-weight: 500; font-size: 14px; color: #000000;">
+                    Tickets Available</p>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="flex">
+            <div class="w-1/3">
+              <div class="flex items-center">
+                <div class="w-1/5 justify-center">
+                  <div class="circle-3"></div>
+                </div>
+                <div class="w-1/1">
+                  <p
+                    style=" font-family: 'Space Grotesk', sans-serif; font-style: normal; font-weight: 500; font-size: 14px; color: #000000;">
+                    Sold Out</p>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="flex mt-12 justify-end">
             <div class="w-1/2">
               <div class="flex items-center content-end">
                 <div class="w-13">
-                  <p style=" font-family: 'Space Grotesk', sans-serif; font-style: normal; font-weight: 500; font-size: 24px; color: #000000;">View Details</p>
+                  <p
+                    style=" font-family: 'Space Grotesk', sans-serif; font-style: normal; font-weight: 500; font-size: 24px; color: #000000;">
+                    View Details</p>
                 </div>
                 <div class="flex w-1/3 justify-end">
-                  <svg class="arrow-forward-24-px2" width="29" height="29" viewBox="0 0 29 29" fill="none" xmlns="http://www.w3.org/2000/svg">
-                    <path d="M14.5 4.83337L12.7963 6.53712L19.5388 13.2917H4.83337V15.7084H19.5388L12.7963 22.463L14.5 24.1667L24.1667 14.5L14.5 4.83337Z" fill="#212124" />
+                  <svg class="arrow-forward-24-px2" width="29" height="29" viewBox="0 0 29 29" fill="none"
+                    xmlns="http://www.w3.org/2000/svg">
+                    <path
+                      d="M14.5 4.83337L12.7963 6.53712L19.5388 13.2917H4.83337V15.7084H19.5388L12.7963 22.463L14.5 24.1667L24.1667 14.5L14.5 4.83337Z"
+                      fill="#212124" />
                   </svg>
                 </div>
               </div>
             </div>
-              
-           </div>
+
           </div>
-        </div>
-        <div class="w-1/3 ml-12">
-          <div class="banner2 bg-cover"></div>
         </div>
       </div>
+      <div class="w-1/3 ml-12">
+        <div class="banner2 bg-cover"></div>
+      </div>
     </div>
-    <div class="md:container md:mx-auto mt-36">
-      <div class="flex">
-        <div class="w-2/4 mr-24">
-          <div class="entertainment-that-brings-joy-to-life">
-            Entertainment<br />That Brings<br />Joy to Life
+  </div>
+  <div class="md:container md:mx-auto mt-36">
+    <div class="flex">
+      <div class="w-2/4 mr-24">
+        <div class="entertainment-that-brings-joy-to-life">
+          Entertainment<br />That Brings<br />Joy to Life
+        </div>
+        <p class="mt-12"
+          style=" font-family: 'Space Grotesk', sans-serif; font-style: normal; font-weight: 500; font-size: 32px; color: #000000;">
+          With GME Malaysia</p>
+        <div class="flex">
+          <div class="w-2/4">
+            <p class="mt-12"
+              style=" font-family: 'Space Grotesk', sans-serif; font-style: normal; font-weight: 500; font-size: 32px; color: #000000;">
+              Since</p>
+            <p class="mt"
+              style=" font-family: 'Space Grotesk', sans-serif; font-style: normal; font-weight: bold; font-size: 76px; color: #000000;">
+              2014</p>
           </div>
-          <p class="mt-12" style=" font-family: 'Space Grotesk', sans-serif; font-style: normal; font-weight: 500; font-size: 32px; color: #000000;">With GME Malaysia</p>
-          <div class="flex">
-            <div class="w-2/4">
-              <p class="mt-12" style=" font-family: 'Space Grotesk', sans-serif; font-style: normal; font-weight: 500; font-size: 32px; color: #000000;">Since</p>
-              <p class="mt" style=" font-family: 'Space Grotesk', sans-serif; font-style: normal; font-weight: bold; font-size: 76px; color: #000000;">2014</p>
-            </div>
-            <div class="w-2/4">
-              <p class="mt-12" style=" font-family: 'Space Grotesk', sans-serif; font-style: normal; font-weight: 500; font-size: 32px; color: #000000;">Show Completed</p>
-              <p class="mt" style=" font-family: 'Space Grotesk', sans-serif; font-style: normal; font-weight: bold; font-size: 76px; color: #000000;">47+</p>
-            </div>
+          <div class="w-2/4">
+            <p class="mt-12"
+              style=" font-family: 'Space Grotesk', sans-serif; font-style: normal; font-weight: 500; font-size: 32px; color: #000000;">
+              Show Completed</p>
+            <p class="mt"
+              style=" font-family: 'Space Grotesk', sans-serif; font-style: normal; font-weight: bold; font-size: 76px; color: #000000;">
+              47+</p>
           </div>
         </div>
-        <div class="w-2/4">
-          <div class="flex">
-            <div class="w-1/2 flex flex-col justify-center">
-              <div class="banner-image-1"></div>
-              <div class="banner-image-2"></div>
-            </div>
-            <!-- <div class="w-2/4 mr-3">
+      </div>
+      <div class="w-2/4">
+        <div class="flex">
+          <div class="w-1/2 flex flex-col justify-center">
+            <div class="banner-image-1"></div>
+            <div class="banner-image-2"></div>
+          </div>
+          <!-- <div class="w-2/4 mr-3">
               <div class="banner2 bg-cover"></div>
             </div> -->
+        </div>
+      </div>
+    </div>
+  </div>
+  <div class="mt-36" style="background-color: #000000; border-radius: 16px 16px 0px 0px; width:auto;">
+    <div class="flex p-12">
+      <div class="">
+        <p class=""
+          style=" font-family: 'Space Grotesk', sans-serif; font-style: normal; font-weight: 500; font-size: 32px; color: white;">
+          Latest News</p>
+        <div class="flex mt-6">
+          <div class="w-1/3">
+            <div class="latest-image-1"></div>
+            <p class="mt-2"
+              style=" font-family: 'Space Grotesk', sans-serif; font-style: normal; text-decoration: underline; font-weight: 500; font-size: 26px; color: white;">
+              Hong Kong Entertainer Eason Chan to Perform 3 Nights in KL</p>
+          </div>
+          <div class="w-1/3">
+            <div class="latest-image-2"></div>
+            <p class="mt-2"
+              style=" font-family: 'Space Grotesk', sans-serif; font-style: normal; text-decoration: underline; font-weight: 500; font-size: 26px; color: white;">
+              K-pop Group NCT Dream Has Added Kuala Lumpur to Their 2nd World Tour List</p>
+          </div>
+          <div class="w-1/3">
+            <div class="latest-image-3"></div>
+            <p class="mt-2"
+              style=" font-family: 'Space Grotesk', sans-serif; font-style: normal; text-decoration: underline; font-weight: 500; font-size: 26px; color: white;">
+              五月天时隔6年来马开唱“承诺很快再回来” 刘若英惊喜助阵合唱《后来》</p>
           </div>
         </div>
       </div>
     </div>
-    <div class="mt-36" style="background-color: #000000; border-radius: 16px 16px 0px 0px; width:auto;">
-      <div class="flex p-12">
-        <div class="">
-          <p class="" style=" font-family: 'Space Grotesk', sans-serif; font-style: normal; font-weight: 500; font-size: 32px; color: white;">Latest News</p>
-          <div class="flex mt-6">
-            <div class="w-1/3">
-              <div class="latest-image-1"></div>
-              <p class="mt-2" style=" font-family: 'Space Grotesk', sans-serif; font-style: normal; text-decoration: underline; font-weight: 500; font-size: 26px; color: white;">Hong Kong Entertainer Eason Chan to Perform 3 Nights in KL</p>
-            </div>
-            <div class="w-1/3">
-              <div class="latest-image-2"></div>
-              <p class="mt-2" style=" font-family: 'Space Grotesk', sans-serif; font-style: normal; text-decoration: underline; font-weight: 500; font-size: 26px; color: white;">K-pop Group NCT Dream Has Added Kuala Lumpur to Their 2nd World Tour List</p>
-            </div>
-            <div class="w-1/3">
-              <div class="latest-image-3"></div>
-              <p class="mt-2" style=" font-family: 'Space Grotesk', sans-serif; font-style: normal; text-decoration: underline; font-weight: 500; font-size: 26px; color: white;">五月天时隔6年来马开唱“承诺很快再回来” 刘若英惊喜助阵合唱《后来》</p>
-            </div>
+  </div>
+  <hr>
+  <container>
+    <div class="e101_4860 grid grid-cols-3">
+      <div>
+        <div class="e101_4861"></div>
+        <div class="e101_4870">Serves as a hub for top-notch film production and casting services across
+          Southeast Asia.</div>
+      </div>
+      <div class="e101_4862"><a href="about.html">About Us</a>
+        <div class="e101_4863">Events
+          <div class="e101_4864">Past
+            Portfolios
+            <div class="e101_4865"><a href="contactUs.html">Contact Us</a></div>
           </div>
         </div>
       </div>
-    </div>
-    <hr>
-    <container>
-      <div class="e101_4860 grid grid-cols-3">
-          <div>
-              <div class="e101_4861"></div>
-              <div class="e101_4870">Serves as a hub for top-notch film production and casting services across
-                  Southeast Asia.</div>
-          </div>
-          <div class="e101_4862"><a href="about.html">About Us</a>
-              <div class="e101_4863">Events
-                  <div class="e101_4864">Past
-                      Portfolios
-                      <div class="e101_4865"><a href="contactUs.html">Contact Us</a></div>
-                  </div>
+      <div>
+        <div class="e101_4866 flex">
+          <div class="ei101_4866_58_6594">
+            <div class="ei101_4866_58_6595">
+              <div class="ei101_4866_58_6596">
+                <div class="ei101_4866_58_6597">
+                  <span class="ei101_4866_58_6598">Email </span>
+                </div>
               </div>
+            </div>
           </div>
-          <div>
-              <div class="e101_4866 flex">
-                  <div class="ei101_4866_58_6594">
-                      <div class="ei101_4866_58_6595">
-                          <div class="ei101_4866_58_6596">
-                              <div class="ei101_4866_58_6597">
-                                  <span class="ei101_4866_58_6598">Email </span>
-                              </div>
-                          </div>
-                      </div>
-                  </div>
-                  <div class="e101_4868">
-                      <div class="e101_4869">Send</div>
-                  </div>
-              </div>
-              <div class="e101_4867">GME All Rights Reserved.</div>
+          <div class="e101_4868">
+            <div class="e101_4869">Send</div>
           </div>
+        </div>
+        <div class="e101_4867">GME All Rights Reserved.</div>
       </div>
+    </div>
   </container>
-  </body>
+</body>
+
 </html>
