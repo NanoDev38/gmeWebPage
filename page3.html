@@ -1,206 +1,162 @@
 <!DOCTYPE html>
 <html lang="en">
-  <head>
-    <meta charset="UTF-8" />
-    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <script src="https://cdn.tailwindcss.com"></script>
-    <script
-      src="https://kit.fontawesome.com/bb8f73d07f.js"
-      crossorigin="anonymous"
-    ></script>
-    <link
-      rel="stylesheet"
-      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css"
-      integrity="sha384-...the rest of the integrity value..."
-      crossorigin="anonymous"
-    />
-    <link
-      href="https://fonts.googleapis.com/css?family=Vastago+Grotesk&amp;display=swap"
-      rel="stylesheet"
-    />
-    <title>Home</title>
 
-    <style>
-      .top {
-        width: auto;
-        height: 38px;
-        background: #000000;
-      }
+<head>
+  <meta charset="UTF-8" />
+  <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <script src="https://cdn.tailwindcss.com"></script>
+  <script src="https://kit.fontawesome.com/bb8f73d07f.js" crossorigin="anonymous"></script>
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css"
+    integrity="sha384-...the rest of the integrity value..." crossorigin="anonymous" />
+  <link href="https://fonts.googleapis.com/css?family=Vastago+Grotesk&amp;display=swap" rel="stylesheet" />
+  <link rel="stylesheet" href="styles.css" />
+  <title>Contact Us</title>
 
-      .main-banner {
-        width: 100%; /* Adjust the width as needed */
-        height: 1140px;
-        background-color: #f8f7fa;
-        border-radius: 20px;
-      }
+  <style>
+    .top {
+      width: auto;
+      height: 38px;
+      background: #000000;
+    }
 
-      .banner {
-        width: 100%;
-        height: 408px;
-        background-color: #f8f7fa;
-        border-radius: 20px;
-      }
-    </style>
-  </head>
-  <body>
-    <div class="top"></div>
-    <header class="bg-white">
-      <nav
-        class="mx-auto flex max-w-7xl items-center justify-between p-6 lg:px-8"
-        aria-label="Global"
-      >
-        <div class="flex lg:flex-1">
-          <a href="#" class="-m-1.5 p-1.5">
-            <span class="sr-only">GME Malaysia</span>
-            <img class="h-32 w-auto" src="images/gme-icon.png" alt="" />
-          </a>
+    .main-banner {
+      width: 100%;
+      /* Adjust the width as needed */
+      height: 1140px;
+      background-color: #f8f7fa;
+      border-radius: 20px;
+    }
+
+    .banner {
+      width: 100%;
+      height: 408px;
+      background-color: #f8f7fa;
+      border-radius: 20px;
+    }
+
+    .details-title {
+      font-family: "Space Grotesk", sans-serif;
+      color: #4C3CAC;
+      font-size: 52px;
+      line-height: 55px;
+      margin-top: 20px;
+      margin-left: 50px;
+    }
+
+    .details-content {
+      font-family: "Space Grotesk", sans-serif;
+      font-size: 24px;
+      line-height: 25px;
+      color: #4C3CAC;
+      margin-left: 50px;
+    }
+  </style>
+</head>
+
+<body>
+  <div class="top"></div>
+  <div class="bg-white">
+    <container class="flex justify-between">
+      <img class="e101_4873 col-span-1 bg-white" src="images/gme-icon.png"></img>
+      <ul class="flex gap-10 ">
+        <li class="e101_4875">Home</li>
+        <li class="e101_4876"><a href="index2.html">About</a></li>
+        <li class="e101_4877">Events</li>
+        <li class="e101_4878"><a href="index3.html">Contact</a></li>
+      </ul>
+    </container>
+  </div>
+  <div class="md:container md:mx-auto mt-12">
+    <div class="main-banner bg-cover">
+      <div class="flex items-center justify-center">
+        <!-- Added 'items-center justify-center' classes -->
+        <div class="w-1/2 flex items-center justify-center mx-auto text-center">
+          <!-- Added 'flex items-center justify-center' classes -->
+          <!-- Your content here -->
         </div>
-        <div class="flex lg:hidden">
-          <button
-            type="button"
-            class="-m-2.5 inline-flex items-center justify-center rounded-md p-2.5 text-gray-700"
-          >
-            <span class="sr-only">Open main menu</span>
-            <svg
-              class="h-6 w-6"
-              fill="none"
-              viewBox="0 0 24 24"
-              stroke-width="1.5"
-              stroke="currentColor"
-              aria-hidden="true"
-            >
-              <path
-                stroke-linecap="round"
-                stroke-linejoin="round"
-                d="M3.75 6.75h16.5M3.75 12h16.5m-16.5 5.25h16.5"
-              />
-            </svg>
-          </button>
-        </div>
-        <div class="hidden lg:flex lg:gap-x-12">
-          <a
-            href="#"
-            class="text-sm leading-6 text-gray-900"
-            style="
-              font-family: 'Saes Grotesk';
-              font-style: normal;
-              font-weight: 500;
-              font-size: 21px;
-            "
-            >Home</a
-          >
-          <a
-            href="#"
-            class="text-sm font-semibold leading-6 text-gray-900"
-            style="
-              font-family: 'Saes Grotesk';
-              font-style: normal;
-              font-weight: 500;
-              font-size: 21px;
-            "
-            >About</a
-          >
-          <a
-            href="#"
-            class="text-sm font-semibold leading-6 text-gray-900"
-            style="
-              font-family: 'Saes Grotesk';
-              font-style: normal;
-              font-weight: 500;
-              font-size: 21px;
-            "
-            >Events</a
-          >
-          <a
-            href="#"
-            class="text-sm font-semibold leading-6 text-gray-900"
-            style="
-              font-family: 'Saes Grotesk';
-              font-style: normal;
-              font-weight: 500;
-              font-size: 21px;
-            "
-            >Contact</a
-          >
-        </div>
-      </nav>
-    </header>
-    <div class="md:container md:mx-auto">
-      <div class="main-banner bg-cover">
-        <div class="flex items-center justify-center">
-          <!-- Added 'items-center justify-center' classes -->
-          <div
-            class="w-1/2 flex items-center justify-center mx-auto text-center"
-          >
-            <!-- Added 'flex items-center justify-center' classes -->
-            <!-- Your content here -->
-          </div>
-          <div
-            class="w-1/2 flex flex-col justify-center"
-            style="padding-right: 100px; padding-left: 50px; padding-top: 22.5%"
-          >
-            <p
-              style="
+        <div class="w-1/2 flex flex-col justify-center"
+          style="padding-right: 100px; padding-left: 50px; padding-top: 22.5%">
+          <p style="
                 font-family: 'Vastago Grotesk';
                 font-weight: 500;
                 font-size: 40px;
                 letter-spacing: 0.15px;
                 color: #000000;
-              "
-            >
-              Let&#x2019;s make it a connection.
-            </p>
-            <div class="flex flex-col items-center gap-4 mt-10">
-              <input
-                type="text"
-                placeholder="Name"
-                class="p-2 border border-gray-300 w-full"
-              />
-              <!-- Added 'w-full' class -->
-              <input
-                type="text"
-                placeholder="Email"
-                class="p-2 border border-gray-300 w-full"
-              />
-              <!-- Added 'w-full' class -->
-              <input
-                type="text"
-                placeholder="Mobile Number"
-                class="p-2 border border-gray-300 w-full"
-              />
-              <!-- Added 'w-full' class -->
-              <textarea
-                name=""
-                id=""
-                cols="30"
-                rows="7"
-                placeholder="Enquiries"
-                class="p-2 border border-gray-300 w-full"
-              ></textarea>
-              <!-- Added 'w-full' class -->
-            </div>
+              ">
+            Let&#x2019;s make it a connection.
+          </p>
+          <div class="flex flex-col items-center gap-4 mt-10">
+            <input type="text" placeholder="Name" class="p-2 border border-gray-300 w-full" />
+            <!-- Added 'w-full' class -->
+            <input type="text" placeholder="Email" class="p-2 border border-gray-300 w-full" />
+            <!-- Added 'w-full' class -->
+            <input type="text" placeholder="Mobile Number" class="p-2 border border-gray-300 w-full" />
+            <!-- Added 'w-full' class -->
+            <textarea name="" id="" cols="30" rows="7" placeholder="Enquiries"
+              class="p-2 border border-gray-300 w-full"></textarea>
+            <!-- Added 'w-full' class -->
           </div>
         </div>
       </div>
     </div>
-    <div class="md:container md:mx-auto mt-8">
-      <div class="banner bg-cover">
-        <div class="flex items-center justify-center">
-          <div
-            class="w-1/3 flex items-center justify-center mx-auto text-center"
-          >
-            
+  </div>
+  <div class="md:container md:mx-auto mt-8">
+    <div class="banner bg-cover">
+      <div class="flex items-center justify-center">
+        <div class="w-1/3 items-center justify-center mx-auto text-center">
+          <p class="details-title">Social</p>
+          <p class="details-content mt-12">www.facebook.com/gmegroupmy</p>
+          <p class="details-content mt-3">www.instagram.com/gmegroupmy</p>
+        </div>
+        <div class="e107_4851 mt-12 ml-12"></div>
+        <div class="w-1/3 items-center justify-center mx-auto text-center">
+          <p class="details-title">Contact</p>
+          <p class="details-content mt-12">+60124686684</p>
+          <p class="details-content mt-3">mygmegroup@gmail.com</p>
+        </div>
+        <div class="e107_4851 mt-12 ml-12"></div>
+        <div class="w-1/3 items-center justify-center mx-auto text-center">
+          <p class="details-title mr-12">Locate</p>
+          <p class="details-content mt-12 mr-12">69-M, JALAN PJU 5/21, THE<br> STRAND, Kota Damansara,<br> 47810 Petaling Jaya, Selangor</p>
+        </div>
+      </div>
+    </div>
+  </div>
+  <container class="">
+    <div class="e101_4860 grid grid-cols-3">
+      <div>
+        <div class="e101_4861"></div>
+        <div class="e101_4870">Serves as a hub for top-notch film production and casting services across
+          Southeast Asia.</div>
+      </div>
+      <div class="e101_4862"><a href="index2.html">About Us</a>
+        <div class="e101_4863">Events
+          <div class="e101_4864">Past
+            Portfolios
+            <div class="e101_4865"><a href="index3.html">Contact Us</a></div>
           </div>
-          <div class="w-1/3 flex items-center justify-center mx-auto text-center">
-            
-            </div> 
-            <div class="w-1/3 flex items-center justify-center mx-auto text-center">
+        </div>
+      </div>
+      <div>
+        <div class="e101_4866 flex">
+          <div class="ei101_4866_58_6594">
+            <div class="ei101_4866_58_6595">
+              <div class="ei101_4866_58_6596">
+                <div class="ei101_4866_58_6597">
+                  <span class="ei101_4866_58_6598">Email </span>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="e101_4868">
+            <div class="e101_4869">Send</div>
+          </div>
+        </div>
+        <div class="e101_4867">GME All Rights Reserved.</div>
+      </div>
+    </div>
+  </container>
+</body>
 
-            </div>
-          </div>
-        </div>
-      </div>
-    </div>
-  </body>
 </html>
